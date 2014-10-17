@@ -1,62 +1,63 @@
 name=raw_input("What is your Name?")
 print "Oh hi there " + ( name)
-print "Your name begins with "+ name[0].lower()
-if name[0].lower()=="a":
+nl=name[0].lower()
+print "Your name begins with "+ nl
+if nl=="a":
 	word="alphabet"
-elif name[0].lower()=="b":
+elif nl=="b":
 	word="barrel"
-elif name[0].lower()=="c":
+elif nl=="c":
 	word="copy"
-elif name[0].lower()=="d":
+elif nl=="d":
 	word="dunk"
-elif name[0].lower()=="e":
+elif nl=="e":
 	word="epitome"
-elif name[0].lower()=="f":
+elif nl=="f":
 	word="fan"
-elif name[0].lower()=="g":
+elif nl=="g":
 	word="grduge"
-elif name[0].lower()=="h":
+elif nl=="h":
 	word="homework"
-elif name[0].lower()=="i":
+elif nl=="i":
 	word="Indent"
-elif name[0].lower()=="j":
+elif nl=="j":
 	word="jackhammer"
-elif name[0].lower()=="k":
+elif nl=="k":
 	word="kick"
-elif name[0].lower()=="l":
+elif nl=="l":
 	word="lick"
-elif name[0].lower()=="m":
+elif nl=="m":
 	word="master"
-elif name[0].lower()=="n":
+elif nl=="n":
 	word="Nope"
-elif name[0].lower()=="o":
+elif nl=="o":
 	word="Opperator"
-elif name[0].lower()=="p":
+elif nl=="p":
 	word="pie"
-elif name[0].lower()=="q":
+elif nl=="q":
 	word="quarky"
-elif name[0].lower()=="r":
+elif nl=="r":
 	word="right"
-elif name[0].lower()=="s":
+elif nl=="s":
 	word="stunt"
-elif name[0].lower()=="t":
+elif nl=="t":
 	word="Tired"
-elif name[0].lower()=="u":
+elif nl=="u":
 	word="unattentive"
-elif name[0].lower()=="v":
+elif nl=="v":
 	word="varriable"
-elif name[0].lower()=="w":
+elif nl=="w":
 	word="work"
-elif name[0].lower()=="x":
+elif nl=="x":
 	word="xylophone"
-elif name[0].lower()=="y":
+elif nl=="y":
 	word="yak"
-elif name[0].lower()=="z":
+elif nl=="z":
 	word="zebra"
 else:
 	word="dont be stupid like Nick Quinlan. No names should begin with a number"
 
-print  word +" also begins with " +name[0].lower()
+print  word +" also begins with " +nl
 
 if name.lower()=="nick":
 	print "Welcome back Nick!"
