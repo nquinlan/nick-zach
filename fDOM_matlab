@@ -1,0 +1,13 @@
+filepath=raw_input("What is your file path?")
+print("ok ") + ( filepath)
+samplesper=raw_input("How many samples per blank?")
+if type(samplesper)==int:
+		print('ok ')+(samplesper)+('samples per group')
+else:
+		print("I'm sorry I need an integer here")
+blankgroups=raw_input("How many blank groups do you have?")
+if type(blankgroups)==int:
+	print('ok ') + (blankgroups)+('groups')
+else:
+	print("I'm sorry, I need an integer here")
+print("ok ") + ("you have ") + (blankgroups )+ (" blank groups and ") +(samplesper)+(" samples per group ") +('located at ') + ( filepath)
